@@ -1,5 +1,6 @@
 import axios from 'axios';
 import Alpine from 'alpinejs';
+import '@lottiefiles/lottie-player';
 
 // axios
 window.axios = axios;
