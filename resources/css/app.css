@@ -13,7 +13,11 @@
     --color-primary-blue1: #006CE4;
     --color-primary-blue2: #004898;
     --color-primary-paleblue: #F3F8FF;
+    --color-primary-lightblue: #EBF4FF;
     --color-primary-darkblue: #00317C;
 
+    --color-neutral-lightgray: #B5B6B8;
+    --color-neutral-gray: #909294;
+    --color-neutral-darkgray: #46494D;
     --color-neutral-dark: #212529;
 }
