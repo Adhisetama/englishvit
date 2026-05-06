@@ -1,5 +1,6 @@
 import axios from 'axios';
 import Alpine from 'alpinejs';
+import collapse from '@alpinejs/collapse'
 import '@lottiefiles/lottie-player';
 import Swiper from 'swiper';
 import { Pagination } from 'swiper/modules';
@@ -11,6 +12,7 @@ window.axios = axios;
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 // alpine
+Alpine.plugin(collapse)
 window.Alpine = Alpine;
 Alpine.start();
 
