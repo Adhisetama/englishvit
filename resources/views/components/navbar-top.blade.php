@@ -31,7 +31,7 @@
 @endphp
 
 <nav x-data="{ open: false }" class="bg-primary-darkblue text-white">
-    <x-common.content-container class="py-2 md:py-4 md:pr-2 flex justify-between items-center">
+    <x-common.content-container class="py-2 md:py-4 md:pr-2 flex justify-between items-center overflow-visible">
 
         <img src="{{ asset('images/logo-white.svg') }}" class="lg:h-10" alt="">
 
@@ -82,7 +82,7 @@
     <div x-show="open" x-transition:leave="duration-50" class="fixed inset-0 bg-black/40 md:hidden">
 
         <button class="text-neutral-dark text-center bg-white h-8 w-8 fixed top-3 right-3 rounded-full" x-transition
-            x-show="open" x-on:click="open = !open">
+            x-show="open" x-on:click="open = false">
             <x-icons.cross class="m-auto" />
         </button>
 
