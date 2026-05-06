@@ -82,7 +82,7 @@
     <div x-show="open" x-transition:leave="duration-50" class="fixed inset-0 bg-black/40 md:hidden">
 
         <button class="text-neutral-dark text-center bg-white h-8 w-8 fixed top-3 right-3 rounded-full" x-transition
-            x-show="open" x-on:click="open = !open">
+            x-show="open" x-on:click="open = false">
             <x-icons.cross class="m-auto" />
         </button>
 
