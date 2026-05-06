@@ -5,6 +5,7 @@
     <x-partials.home.program-recommendation />
     <x-partials.home.testimony />
     <x-partials.home.promo />
+    <x-partials.home.why-us />
 
     Home Page
 </x-layouts.app>

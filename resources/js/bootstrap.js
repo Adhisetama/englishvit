@@ -60,3 +60,16 @@ const getSlidesPerView = (query, slideWidth, maxSlides) => {
     })
     observer.observe(document.querySelector(query))
 }
+{
+    // Why Englishvit? swiper
+    const query = '#wu-swiper'
+    new Swiper(query, {
+        modules: [Pagination],
+        slidesPerView: 1,
+        spaceBetween: 0,
+        pagination: {
+            el: `${query} .swiper-pagination`,
+            clickable: true,
+        },
+    });
+}
