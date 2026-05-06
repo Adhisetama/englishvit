@@ -1,3 +1,7 @@
+<!-- add space when navbar is shown -->
+<div class="md:hidden h-13"></div>
+
+<!-- bottom navbar (mobile only) -->
 <nav class="fixed bottom-0 left-0 right-0 z-50 bg-white md:hidden">
     <div class="grid grid-cols-4 text-xs py-1">
 
