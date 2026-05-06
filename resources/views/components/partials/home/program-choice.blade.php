@@ -25,7 +25,7 @@
         @endforeach
 
         <x-common.card
-            class="flex flex-col md:flex-row gap-5 md:gap-2 px-2 py-4 justify-center md:justify-start items-center text-primary-blue1 bg-primary-lightblue md:text-left md:w-50">
+            class="flex flex-col md:flex-row gap-5 md:gap-2 px-2 py-4 justify-center md:justify-start items-center text-primary-blue1 bg-primary-lightblue md:text-left lg:w-50">
             <img class="h-10 w-10" src="{{ asset('images/icon/icon_more.webp') }}" alt="">
             <h4 class="text-sm font-bold">Lainnya</h4>
         </x-common.card>
