@@ -22,4 +22,6 @@
     --color-neutral-dark: #212529;
 
     --color-btn-warning: #FFB700;
+
+    --shadow-card: 0px 3px 6px rgba(0, 0, 0, 0.16);
 }
