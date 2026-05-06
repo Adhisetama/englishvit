@@ -31,7 +31,7 @@
 @endphp
 
 <nav x-data="{ open: false }" class="bg-primary-darkblue text-white">
-    <x-common.content-container class="py-2 md:py-4 md:pr-2 flex justify-between items-center">
+    <x-common.content-container class="py-2 md:py-4 md:pr-2 flex justify-between items-center overflow-visible">
 
         <img src="{{ asset('images/logo-white.svg') }}" class="lg:h-10" alt="">
 
