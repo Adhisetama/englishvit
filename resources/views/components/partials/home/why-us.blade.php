@@ -50,8 +50,14 @@
         </div>
     </div>
 
-    <div class="overflow-hidden rounded-lg mt-10">
+    <div class="overflow-hidden rounded-lg mt-10 md:hidden">
         <lottie-player src="{{ asset('images/lottie/why-us.json') }}" background="transparent" speed="1"
+            style="width:100%;" loop autoplay>
+        </lottie-player>
+    </div>
+
+    <div class="overflow-hidden rounded-lg mt-10 hidden lg:block">
+        <lottie-player src="{{ asset('images/lottie/why-us2.json') }}" background="transparent" speed="1"
             style="width:100%;" loop autoplay>
         </lottie-player>
     </div>
