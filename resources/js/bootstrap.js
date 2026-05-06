@@ -22,7 +22,7 @@ const getSlidesPerView = (query, slideWidth, maxSlides) => {
 {
     // program recommendation swiper
     const query = '#pr-swiper'
-    new Swiper(query, {
+    const swiper = new Swiper(query, {
         modules: [Pagination],
         slidesPerView: getSlidesPerView(query, 250, 4),
         spaceBetween: 10,
@@ -37,6 +37,7 @@ const getSlidesPerView = (query, slideWidth, maxSlides) => {
         },
     });
     const observer = new ResizeObserver(() => {
+        swiper.params.slidesPerView = getSlidesPerView(query, 250, 4);
         swiper.update();
     });
     observer.observe(document.querySelector(query))
